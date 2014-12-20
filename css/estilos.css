@@ -1,0 +1,127 @@
+@font-face{
+	font-family: titulo;
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face{
+	font-family: texto;
+	src: url("../fonts/Raleway-Regular.otf");
+}
+@font-face{
+	font-family: parrafos;
+	src: url("../fonts/Raleway-ExtraBold.otf");
+}
+@font-face{
+	font-family: contenido;
+	src: url("../fonts/Raleway-ExtraBold.otf");
+}
+	
+	/*Color azul menu: #3497DB; */
+body{
+	background-color: #f8f8f8;
+
+}
+
+nav{
+		background-color:#3497DB;
+		font-family: texto;
+
+}
+
+nav ul{
+	
+	list-style: none;
+	text-align: center;
+	margin: 0;
+}
+nav ul li{
+	
+
+	display: inline-block;
+	padding:2%;
+}
+nav ul li:hover{
+	background-color: #2D84BF;
+	box-shadow: inset 0px -8px 0px 0px #1D547A;
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+
+	
+}
+nav ul li a{
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+
+	
+
+	
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+	    -ms-transition: all 0.2s ease;
+	     -o-transition: all 0.2s ease;
+	        transition: all 0.2s ease;
+}
+nav ul li a:hover{
+	
+	color: #E7E8E3;
+}
+#submenu {
+	background-color: #2D82BD;
+	margin-bottom: 35px;
+}
+#submenu li{
+
+	padding: 3px;
+	padding-right: 10px;
+
+}
+#submenu li:hover{
+	box-shadow: inset 0px -4px 0px 0px #1D547A;
+	background-color: #3497DB;
+	-webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+}
+#submenu a{
+	font-size: 18px;
+
+}
+#contenido{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+legend{
+	color: #3497DB;
+	text-align: center;
+	font-family: texto;
+	font-size: 35px;
+
+}
+fieldset{
+	border-radius: 15px;
+	border: dashed #BABCB1 1px;
+}
+#chart_div{
+	width:  750px;
+	height: 500px;
+	margin: 0 auto;
+	border: solid 1px #E0E0E0;
+	margin-bottom: 19px;
+}
+#vistageograficaContenido{
+	margin: 0 auto;
+}
+#mapa{
+	margin: 0 auto;
+}
+#imprimir{
+	margin: 0 auto;
+	text-align: center;
+}

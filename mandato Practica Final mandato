@@ -1,0 +1,30 @@
+Practica Final
+Casos:
+Realiza una aplicacion que permita agregar y modificar el registro de los casos de chikungunya que suceden en nuestro pais. A la hora de registrar un caso debe colocar los siguientes datos:  
+
+cedula
+nombre
+apellido
+sintomas (checkbox con los sintomas de la chikun)
+fecha nacimiento
+sexo
+provincia
+direccion
+tipo de sangre.
+estado civil
+situacion laboral.
+Configuración
+Debe hacer una mantenimiento para las provincias, en el cual debe colocar al menos, el nombre y la ubicación geográfica en latitud y longitud.
+Debe hacer mantenimiento para los tipos de sangre,  estado civil, situación laboral,  síntomas y signo zodiacal.
+Hacer un mantenimiento de usuarios de la aplicación solo habrá un tipo de usuario.
+Reportes:
+La aplicación debe poder imprimir los siguientes reportes (pantalla, papel o pdf) debe poder elegir cualquiera:
+
+Listado de casos por provincias. Mostrara un encabezado por cada provincia con casos detallando los datos generales de cada afectado. Finalizando con el total por cada provincia
+Listado por signo zodiacal. Mostrara un encabezado por cada signo con casos detallando los datos generales de cada afectado. Finalizando con el total por cada signo.
+Reporte de síntomas:  mostrara un reporte indicando el total de personas afectadas, conteo de los síntomas presentados y un grafico de barras mostrando los síntomas que más se presentan comparándose uno con otros.
+Listado por tipo de Sangre, Mostrara un encabezado por cada tipo con casos detallando los datos generales de cada afectado. Finalizando con el total por tipo de sangre.
+Vista Geográfica:
+En un mapa va a mostrar un icono encima de las provincias que tienen casos registrados. AL hacer click en el icono mostrar un detalle con el total de personas infectadas en esa provincia. Recuerde que la provincia tiene datos de latitud y longitud que usara para mostrar esta informacion. (Ejemplo: http://oscrd.org/)
+
+Nota: Si me entrega por otra via que no sea el virtual, le quitaremos 5 puntos automaticamente.
