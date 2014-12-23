@@ -6,7 +6,7 @@ include 'sintoma_detalle.php';
 ?>
 <style>
 	#vistageografica{
-		box-shadow: inset 0px -8px 0px 0px #1D547A;
+		box-shadow: inset 0px -8px 1px 0px #1D547A;
 		background-color: #2D84BF;
 	}
 </style>
